@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center; /* Centrage horizontal du contenu */
+    height: 100vh;
+    display: table; /* Utilisation de display: table pour le centrage vertical */
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block; /* Utilisation de inline-block pour les éléments de la liste */
+}
+
+nav li {
+    display: inline-block; /* Utilisation de inline-block pour les éléments de la liste */
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #202124;
+}
+
+main {
+    display: table-cell; /* Utilisation de table-cell pour le centrage vertical */
+    vertical-align: middle; /* Centrage vertical du contenu */
+}
+
+.search-bar {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 20px;
+    width: 584px;
+    max-width: 90%;
+    margin: 20px auto; /* Centrage horizontal de la barre de recherche */
+    display: table; /* Utilisation de display: table pour aligner les éléments internes */
+    width: 584px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    display: table-cell; /* Utilisation de table-cell pour aligner les éléments internes */
+    width: 100%;
+}
+
+.search-icons {
+    display: table-cell; /* Utilisation de table-cell pour aligner les éléments internes */
+    vertical-align: middle;
+}
+
+.search-buttons {
+    margin-top: 30px;
+}
+
+.search-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
